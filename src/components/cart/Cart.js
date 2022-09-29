@@ -19,7 +19,7 @@ const Cart = ({ cart }) => {
   if (storeTime === null) {
     storeTime = "0";
   }
- 
+  const notify = () => toast("Congrats You Are Done With Activity!");
 
   return (
     <div>
