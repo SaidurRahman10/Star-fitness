@@ -6,7 +6,7 @@ import "./FullPage.css";
 import React, { useEffect, useState } from "react";
 import Cart from "../cart/Cart";
 import Card from "../cardPage/Card";
-import QuiestionAndAns from "../quiestion/QuiestionAndAns";
+import QuestionAndAns from "../quiestion/QuiestionAndAns";
 
 const FullPage = () => {
     const [starInfo, setStarInfo ] = useState([]);
@@ -28,7 +28,9 @@ const FullPage = () => {
 
 
   return (
-    <div className="container-main grid md:grid-cols-4 grid-cols-1  gap-2 bg-slate-200">
+    <div className="tree">
+
+    <div className="container-main grid md:grid-cols-4 grid-cols-1  gap-2 bg-slate-200 ">
       <div className="card-container col-span-3 ">
         <div className="logo flex">
           <FontAwesomeIcon
@@ -42,7 +44,7 @@ const FullPage = () => {
 
 <div class="container">
       <div class="flex flex-wrap -mx-4">
-         <div class="w-full grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 px-4 gap-5">
+         <div class="w-full grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 px-4 gap-5 pb-20">
            
      
     {
@@ -57,13 +59,15 @@ const FullPage = () => {
    </div>
 
       
-      <QuiestionAndAns></QuiestionAndAns>
           
       </div>
 
       <div className="info-container bg-white sticky">
      <Cart cart={cart}></Cart>
         </div>
+    </div>
+
+      <QuestionAndAns></QuestionAndAns>
     </div>
   );
 };

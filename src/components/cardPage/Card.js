@@ -6,7 +6,7 @@ const Card = (props) => {
     const {handleAddToCart} = props;
   return (
 
-    <div class="bg-white rounded-lg overflow-hidden mb-10">
+    <div class="bg-white rounded-2xl overflow-hidden mb-10 pb-10 shadow-lg">
     <img className="h-2/4" src={img} />
     <div className="p-8 sm:p-9 md:p-7 xl:p-9">
       <h3 className="text-2xl font-bold">{name}</h3>
