@@ -6,6 +6,7 @@ import "./FullPage.css";
 import React, { useEffect, useState } from "react";
 import Cart from "../cart/Cart";
 import Card from "../cardPage/Card";
+import QuiestionAndAns from "../quiestion/QuiestionAndAns";
 
 const FullPage = () => {
     const [starInfo, setStarInfo ] = useState([]);
@@ -56,7 +57,7 @@ const FullPage = () => {
    </div>
 
       
-      
+      <QuiestionAndAns></QuiestionAndAns>
           
       </div>
 
