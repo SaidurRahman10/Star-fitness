@@ -39,7 +39,7 @@ const FullPage = () => {
           ></FontAwesomeIcon>
           <h1 className="text-4xl font-bold text-red-400 ">Star-Fitness</h1>
         </div>
-        <h5 className="text-2xl font-bold my-2">Select today's exercise</h5>
+        <h5 className="text-2xl my-8 font-bold ">Celebrities' Favorite Workouts</h5>
 
 
 <div class="container">

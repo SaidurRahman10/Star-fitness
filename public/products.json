@@ -5,6 +5,7 @@
     "information": "The Rock works out 6 days a week, for about 3 to 4 hours daily. He splits his days into legs, back, shoulders, arms/abs, legs, chest",
     "age": 50,
     "time":25200,
+    "movie": "Black Adam",
     "img": "https://s3images.zee5.com/wp-content/uploads/sites/7/2021/10/Screenshot_20211031-165132_Instagram.jpg"
   },
   {
@@ -13,6 +14,7 @@
     "information": "Henry: I'd be training four times a week instead of six and, on the fourth day, a really simple arm and shoulder workout... I'm not crawling out of the gym and thinking 'I need a nap immediately'",
     "age": 39,
     "time": 18000,
+    "movie": "SuperMan",
     "img": "https://www.drworkout.fitness/wp-content/uploads/2021/08/Henry-Cavill-Workout.jpg"
   },
   {
@@ -21,6 +23,7 @@
     "information": "Marvel sent over a trainer from London to work with Evans, who called the two-hour per day workouts “brutal”. Evans said he hit the gym four to five days a week for three months, focusing on two muscle groups per session.",
     "age": 41,
     "time": 7200,
+    "movie": "Captain America",
     "img": "https://i.pinimg.com/564x/53/4b/62/534b62703b16dcf2b15a229913a0e558.jpg"
   },
   {
@@ -29,6 +32,7 @@
     "information": "Ashwell told Esquire that Holland's training came down to a simple five-step workout, which involved mostly bodyweight workouts, and some weight training that only required a pair of dumbbells",
     "age": 26,
     "time":10800,
+    "movie": "SpiderMan",
     "img": "https://manofmany.com/wp-content/uploads/2021/01/Tom-Holland-Workout-2.jpg"
   },
   {
@@ -37,6 +41,7 @@
     "information": "Andrew: Achieving these physical results meant that Garfield had to spend a lot of time in the gym. “For four months prior we did  don't get too excited  seven hours a day, for four months,",
     "age": 39,
     "time": 3600,
+    "movie": "The Amazing SpiderMan",
     "img": "https://i.pinimg.com/736x/39/84/6a/39846aa3964bb616e33212f765be5d29.jpg"
   },
   {
@@ -45,6 +50,7 @@
     "information": "To Achieve physique in Thor, Chris Hemsworth has a 5-day per week, 90 minute workouts. But to get you started, we recommend you begin with a 3-4-day a week workout with each workout lasting about an hour.",
     "age": 44,
     "time": 7200,
+    "movie": "Loki Series",
     "img": "https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/pnkjftdnaluwjxdj_1634533828.jpeg"
   }
 ]

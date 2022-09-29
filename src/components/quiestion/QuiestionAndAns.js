@@ -6,9 +6,10 @@ const QuiestionAndAns = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 mt-10 ">
 
         <div className="bg-slate-300 col-span-3 rounded-2xl">
-            <h1>Blog Section</h1>
             <br />
-            <h1 className='text-2xl  font-bold'>(i) How Does React Work</h1>
+            <h1 className=' text-4xl text-center  font-bold underline'>Blog Section</h1>
+            <br />
+            <h1 className='text-2xl  font-bold'>(i) How Does React Work?</h1>
 
             <p className='my-3 text-xl m-3  w-10/12'>
             React is a JavaScript library. React allow developers to easily create fast user interfaces for websites and applications alike. The main concept of React. js is virtual DOM.How does ReactJS work behind the scenes?
