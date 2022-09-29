@@ -1,8 +1,12 @@
 import React from 'react';
 import  logo from './sr.jpg';
 
-const Cart = (props) => {
+const Cart = ({cart}) => {
   
+    let  exerciseTime = 0;
+    for(const item of cart){
+        exerciseTime = exerciseTime +  item.time;
+    }
     return (
         <div>
                <div className="container  mt-5">
@@ -46,7 +50,7 @@ const Cart = (props) => {
 
 <div className="exercise-time ml-2 bg-slate-300 h-16 rounded-lg flex justify-between items-center">
 <h3 className="ml-2 font-bold">Exercise Time</h3>
-<h5 className="mr-2"><span>0</span>s</h5>
+<h5 className="mr-2"><span>{exerciseTime}</span>s</h5>
 </div>
 
 

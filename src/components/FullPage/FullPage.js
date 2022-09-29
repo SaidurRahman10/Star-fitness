@@ -16,9 +16,11 @@ const FullPage = () => {
         .then(data => setStarInfo(data))
     },[])
 
-    const handleAddToCart = () => {
+    const handleAddToCart = (product) => {
+       
 
-        console.log('Click');
+        const newCart = [...cart, product]
+        setCart(newCart)
 
     }
 
@@ -59,7 +61,7 @@ const FullPage = () => {
       </div>
 
       <div className="info-container bg-white sticky">
-     <Cart></Cart>
+     <Cart cart={cart}></Cart>
         </div>
     </div>
   );

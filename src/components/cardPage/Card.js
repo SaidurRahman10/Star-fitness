@@ -19,7 +19,7 @@ const Card = (props) => {
       </h5>
 
  
-        <button onClick={()=>handleAddToCart()} className="bg-red-400 text-white px-16 mt-3  py-2 rounded-xl">
+        <button onClick={()=>handleAddToCart(props.star)} className="bg-red-400 text-white px-16 mt-3  py-2 rounded-xl">
           <p>Add To List</p>
         </button>
     </div>
