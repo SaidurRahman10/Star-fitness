@@ -5,7 +5,8 @@ const QuiestionAndAns = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 mt-10 ">
 
-        <div className="bg-teal-300 col-span-3 rounded-2xl">
+        <div className="bg-slate-300 col-span-3 rounded-2xl">
+            <h1>Blog Section</h1>
             <br />
             <h1 className='text-2xl  font-bold'>(i) How Does React Work</h1>
 
