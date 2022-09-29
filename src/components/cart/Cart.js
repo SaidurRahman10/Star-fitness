@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./sr.jpg";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Cart = ({ cart }) => {
   let exerciseTime = 0;
@@ -19,7 +19,7 @@ const Cart = ({ cart }) => {
   if (storeTime === null) {
     storeTime = "0";
   }
-  const notify = () => toast("Congrats You Are Done With Activity!");
+ 
 
   return (
     <div>
@@ -108,10 +108,15 @@ const Cart = ({ cart }) => {
           </button>
         
         </div> */}
-           <div className="flex items-center justify-center">
-        <button className="bg-red-400 text-white px-16 mt-3  py-2 rounded-xl" onClick={notify}>Task Completed!</button>
-        <ToastContainer />
-      </div>
+        <div className="flex items-center justify-center">
+          <button
+            className="bg-red-400 text-white px-16 mt-3  py-2 rounded-xl"
+            onClick={notify}
+          >
+            Task Completed!
+          </button>
+          <ToastContainer />
+        </div>
       </div>
     </div>
   );
